@@ -1,9 +1,9 @@
-package com.example.RestAPI;
+package com.example.RestAPI.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = { "com.example" })
 public class RestApiApplication {
 
 	public static void main(String[] args) {
