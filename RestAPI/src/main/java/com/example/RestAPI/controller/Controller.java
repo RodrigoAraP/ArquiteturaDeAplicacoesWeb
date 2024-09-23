@@ -23,7 +23,5 @@ public class Controller {
     @GetMapping("/clima")
     public String preverTempo() {
         return service.preverTempo();
-    }
-    
-    
+    }  
 }
